@@ -1,0 +1,14 @@
+Error in grep execution: grep: Invalid back reference
+  ^(?!.*(\w)\1{2})[a-zA-Z0-9]{8,}$  -G
+Error in grep execution: grep: Invalid back reference
+  ^<([a-z]+)([^>]*)>(.*?)</\1>$  -x
+Error in grep execution: grep: Invalid back reference
+  ^<([a-z]+)([^>]*)>(.*?)</\1>$  -G
+Error in grep execution: grep: Invalid back reference
+  ^(?!.*(\w)\1{2})[a-zA-Z0-9]{8,}$  -x
+Error in grep execution: grep: Invalid content of \{\}
+  (?<=^|\s)(\([^()]*\)|\[[^\[\]]*\]|\{[^{}]*\})(?=\s|$)  -x
+Error in grep execution: grep: Invalid content of \{\}
+  (?<=^|\s)(\([^()]*\)|\[[^\[\]]*\]|\{[^{}]*\})(?=\s|$)  -G
+Error in grep execution: grep: Invalid back reference
+  ^(?!.*(\w)\1{2})[a-zA-Z0-9]{8,}$  -E
